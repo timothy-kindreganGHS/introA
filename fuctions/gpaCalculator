@@ -1,0 +1,14 @@
+<script>
+    var numberOfClasses = prompt("How many classes do you have?");
+    var classNumber = 1;
+    var gradesArray = [];
+    var creditsArray = [];
+    for (var promptValue = 0; promptValue < numberOfClasses; promptValue++) {
+        var classGradeOne = prompt("What is the grade of class #" + classNumber + "? (Numerical/4.0 Scale)");
+        var classCreditOne = prompt("How many credits is class #" + classNumber + " worth?")
+        classNumber++
+        gradesArray.push(classGradeOne);
+        creditsArray.push(classCreditOne);
+}
+    console.log(gradesArray * creditsArray);
+    </script>
