@@ -1,0 +1,41 @@
+<html>
+    <head></head>
+    <body>
+    <canvas id = "canvasOne" width = "1000" height = "1000"></canvas>
+        <script>
+            var c = document.getElementById("canvasOne");
+            var ctx = c.getContext("2d");
+            
+            ctx.fillStyle = "#EDE8E2";
+            ctx.fillRect(0,0,1000,1000)
+            
+            ctx.shadowBlur=10;
+            ctx.shadowOffsetY=10;
+            ctx.shadowColor="#78716B";
+            ctx.beginPath();
+                ctx.fillStyle="#1C1C1A";
+                ctx.moveTo(600,400);
+                ctx.lineTo(365,70);
+                ctx.lineTo(90,845);
+            ctx.fill();
+            
+            ctx.beginPath();
+                ctx.fillStyle="#1C1C1A";
+                ctx.moveTo(340,610);
+                ctx.lineTo(420,890);
+                ctx.lineTo(930,690);
+            ctx.fill();
+            
+            ctx.shadowBlur=30;
+            ctx.shadowColor="#9F9993";
+            
+            ctx.globalAlpha=0.80;
+            ctx.beginPath();
+                ctx.fillStyle="white";
+                ctx.moveTo(500,400);
+                ctx.lineTo(300,600);
+                ctx.lineTo(600,700);
+            ctx.fill();
+        </script>
+    </body>
+</html>
