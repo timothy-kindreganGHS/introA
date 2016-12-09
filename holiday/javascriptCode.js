@@ -1,7 +1,7 @@
 var imageArray = [
-    "http://www.gatesmillsvillage.com/sites/default/files/christmas%20tree.jpg",
-    "http://www.pixelstalk.net/wp-content/uploads/2015/01/Snow-Background.jpg",
-    "http://www.durangotrain.com/sites/default/files/images/PEX11_logo-horz.jpg"
+    "https://www.gatesmillsvillage.com/sites/default/files/christmas%20tree.jpg",
+    "https://www.pixelstalk.net/wp-content/uploads/2015/01/Snow-Background.jpg",
+    "https://www.durangotrain.com/sites/default/files/images/PEX11_logo-horz.jpg"
     ];
 var imageArrayTwo = [
     "https://cdn.drawception.com/images/panels/2016/7-28/FmkBxBNg56-12.png",
